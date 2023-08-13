@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Inknut Antiqua' */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+.App {
+  background-image: url('../dotgrid.png');
+  background-color: #eff0f3;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #9A9494;
+  background-color: #eff0f3;
+}
+
+.navbar h1 {
+  color: #6246EA;
+  font-family: "Inknut Antiqua";
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #6246EA;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #eff0f3;
+}
+
+/*   BlogList   */
+
+.list-wrapper {
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.list-wrapper > h2 {
+  text-align: center;
+}
+
+.blogs-container {
+  margin-top: 40px;
+}
+
+.blog-post {
+  border-top: 1px solid black;
+  padding: 15px 10px 35px 10px;
+}
+
+.blog-post:hover {
+  box-shadow: 1px 3px 5px #6246EA;
+}
+
+.header-wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-title {
+  width: 75%;
+  display: inline-block;
+}
+
+.blog-author {
+  display: inline;
+}
+
+.blog-body {
+  margin-top: 10px;
+  text-indent: 25px;
+}
