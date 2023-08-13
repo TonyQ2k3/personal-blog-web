@@ -5,6 +5,7 @@
 .App {
   background-image: url('../dotgrid.png');
   background-color: #eff0f3;
+  min-height: 100vh;
 }
 
 * {
