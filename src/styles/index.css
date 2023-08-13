@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 
 .App {
-  background-image: url('../dotgrid.png');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/qblog-26b0a.appspot.com/o/dotgrid.png?alt=media&token=88601859-cbca-4fdc-9da0-f6e5b1f69164');
   background-color: #eff0f3;
   min-height: 100vh;
 }
@@ -41,7 +41,7 @@
 }
 
 .navbar a:hover {
-  color: #6246EA;
+  color: #7963e7;
 }
 
 .content {
@@ -93,4 +93,25 @@
 .blog-body {
   margin-top: 10px;
   text-indent: 25px;
+}
+
+.empty-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-button {
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 25px;
+  border-style: none;
+  color: #fff;
+  background-color: #6246EA;
+}
+
+.create-button:hover {
+  background-color: #533cc7;
 }
