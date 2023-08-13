@@ -7,12 +7,12 @@ export default function BlogList ({ blogs, title, handleDelete }) {
             <div className='blogs-container'>
                 {blogs.map(blog => (
                     //Blog post item
-                    <div className="blog-post">
+                    <div className="blog-post" key={blog.id}>
                         <div className="header-wrapper">
                             <h3 className="blog-title">{blog.title}</h3>
                             <button onClick={() => handleDelete(blog.id)}>Delete</button>
                         </div>
-                        <p style={{fontSize: 14,}}>by <h4 className="blog-author">{blog.author}</h4></p> 
+                        <p style={{fontSize: 14,}}>by <strong>{blog.author}</strong></p> 
                         <p className="blog-body">{blog.body}</p>
                     </div>
                 ))}
